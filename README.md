@@ -71,6 +71,18 @@ curl http://localhost:8000/items
 ```
 You can also check from the browser by going to
 ```http://<PUBLIC_IP>:8000/health``` and ```http://<PUBLIC_IP>:8000/items```
+## ## 🌐 Live Test
+
+Once deployed, access:
+
+http://<PUBLIC_IP>:8000/health  
+http://<PUBLIC_IP>:8000/items
+
+Example response:
+
+{
+  "status": "healthy"
+}
 ## Troubleshooting:
 In case you run in to the some of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
 - If the site is not reachable:
