@@ -4,7 +4,7 @@ This project demonstrates deploying a containerized FastAPI service to AWS EC2 (
 
 The goal was to simulate a real-world support scenario involving cloud networking, service exposure, and log-based debugging. This project reuses the same FastAPI service from the Kubernetes mini-platform and deploys it directly on AWS EC2 to compare orchestration-based vs VM-based deployment models.
 ## 📂 Project Structure
-
+```
 aws-ec2-docker-deployment/
 │
 ├── app/
@@ -18,6 +18,7 @@ aws-ec2-docker-deployment/
 │   └── screenshots
 │
 └── README.md
+```
 ## Pre-requisites:
 * Windows + Powershell (Can also be done on Mac via Terminal)
 * Docker Desktop
