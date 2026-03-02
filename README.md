@@ -9,12 +9,4 @@ The goal was to simulate a real-world support scenario involving cloud networkin
 * Git
 * AWS account
 ## Architecture:
-Internet
-   ↓
-AWS Security Group (Port 8000)
-   ↓
-EC2 Instance (Amazon Linux)
-   ↓
-Docker Container
-   ↓
-FastAPI Application
+Internet -> AWS Security Group (Port 8000) -> EC2 Instance (Amazon Linux) -> Docker Container -> FastAPI Application
