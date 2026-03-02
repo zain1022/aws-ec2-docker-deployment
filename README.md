@@ -69,7 +69,7 @@ docker run -d --name mini-api -p 8000:8000 mini-api:1.0
 curl http://localhost:8000/health
 curl http://localhost:8000/items
 ```
-##🌐 Live Test
+## 🌐 Live Test
 
 Once deployed, access:
 
