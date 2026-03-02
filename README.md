@@ -57,7 +57,7 @@ You can also check from the browser by going to
 ```http://<PUBLIC_IP>:8000/health``` and ```http://<PUBLIC_IP>:8000/items```
 ## Troubleshooting:
 In case you run in to the some of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
-If the site is not reachable:
+- If the site is not reachable:
  1. Verify EC2 instance is running
  2. Confirm Security Group allows TCP 8000
  3. Confirm container is running: ```docker ps```
