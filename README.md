@@ -86,3 +86,13 @@ ssh
 * Diagnosed container-level failures via logs
 * Differentiated networking issues from application-level issues
 * Practiced structured, layered troubleshooting
+## 🧹 Cleanup
+To avoid charges:
+* Stop container
+* Terminate EC2 instance
+* Delete unused volumes
+## 🔍 Differences Between Local Kubernetes and EC2 Deployment
+* Kubernetes = orchestrated, auto-healing
+* EC2 = manual VM-level management
+* Security groups vs Kubernetes services
+* docker logs vs kubectl logs
