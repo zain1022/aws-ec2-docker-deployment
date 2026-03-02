@@ -27,6 +27,9 @@ Internet → AWS Security Group (Port 8000) → EC2 Instance (Amazon Linux) → 
   * SSH (22) → My IP
   * TCP 8000 → 0.0.0.0/0
 ### SSH Into Instance
+```powershell
+ssh -i mini-ec2-key.pem ec2-user@<PUBLIC_IP>
+```
 ### Install Docker
 ### Clone Repository
 ### Build and Run Container
