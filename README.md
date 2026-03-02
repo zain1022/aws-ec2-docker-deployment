@@ -18,3 +18,16 @@ Internet → AWS Security Group (Port 8000) → EC2 Instance (Amazon Linux) → 
 * Uvicorn
 * SSH
 * Linux CLI
+## Deployment Steps:
+### Launch EC2 Instance
+* AMI: Amazon Linux 2023
+* Instance type: t3.micro (or t2.micro)
+* Public IP enabled
+* Security Group:
+  * SSH (22) → My IP
+  * TCP 8000 → 0.0.0.0/0
+### SSH Into Instance
+### Install Docker
+### Clone Repository
+### Build and Run Container
+### Verify Application
