@@ -53,3 +53,6 @@ docker run -d --name mini-api -p 8000:8000 mini-api:1.0
 curl http://localhost:8000/health
 curl http://localhost:8000/items
 ```
+You can also check from the browser
+```http://<PUBLIC_IP>:8000/health```
+```http://<PUBLIC_IP>:8000/items```
