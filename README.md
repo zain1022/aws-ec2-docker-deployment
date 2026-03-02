@@ -63,3 +63,6 @@ In case you run in to the some of the following errors or troubleshooting scenar
   3. Confirm container is running: ```docker ps```
   4. Check container logs: ```docker logs mini-api```
   5. Confirm application binds to ```0.0.0.0``` and not ```127.0.0.1```
+* If container crashes:
+ 1. sads
+ 2. dsds
