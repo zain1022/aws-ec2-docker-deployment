@@ -81,3 +81,8 @@ curl
 sudo ss -lntp
 ssh
 ```
+## 🧠 Key Takeaways:
+* Validated security group-based access control
+* Diagnosed container-level failures via logs
+* Differentiated networking issues from application-level issues
+* Practiced structured, layered troubleshooting
