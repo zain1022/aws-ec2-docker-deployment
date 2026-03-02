@@ -3,6 +3,21 @@
 This project demonstrates deploying a containerized FastAPI service to AWS EC2 (Free Tier) using Docker. The deployment includes Linux administration, security group configuration, container management, and structured troubleshooting.
 
 The goal was to simulate a real-world support scenario involving cloud networking, service exposure, and log-based debugging. This project reuses the same FastAPI service from the Kubernetes mini-platform and deploys it directly on AWS EC2 to compare orchestration-based vs VM-based deployment models.
+## 📂 Project Structure
+
+aws-ec2-docker-deployment/
+│
+├── app/
+│   ├── main.py
+│   └── requirements.txt
+│
+├── docker/
+│   └── Dockerfile
+│
+├── docs/
+│   └── screenshots
+│
+└── README.md
 ## Pre-requisites:
 * Windows + Powershell (Can also be done on Mac via Terminal)
 * Docker Desktop
@@ -10,7 +25,6 @@ The goal was to simulate a real-world support scenario involving cloud networkin
 * AWS account
 ## Architecture:
 Internet → AWS Security Group (Port 8000) → EC2 Instance (Amazon Linux) → Docker Container → FastAPI Application
-<img ![Architecture Diagram](docs/architecture.png)/>
 ## ⚙️ Tech Stack
 * AWS EC2 (t2.micro or t3.micro – Free Tier)
 * Amazon Linux 2023
