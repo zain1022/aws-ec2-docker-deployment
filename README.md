@@ -81,7 +81,7 @@ Example response:
 {
   "status": "healthy"
 }
-## Troubleshooting:
+## 🛠️ Troubleshooting:
 In case you run in to the some of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
 - If the site is not reachable:
  1. Verify EC2 instance is running
@@ -122,3 +122,9 @@ To avoid charges:
 * EC2 = manual VM-level management
 * Security groups vs Kubernetes services
 * docker logs vs kubectl logs
+## 🎯 What This Project Demonstrates
+- SSH-based Linux administration
+- Docker container lifecycle management
+- Cloud networking and firewall configuration (Security Groups)
+- Log-based debugging and issue isolation
+- Production-style deployment workflow
