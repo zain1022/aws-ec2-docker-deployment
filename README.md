@@ -56,8 +56,8 @@ sudo usermod -aG docker ec2-user
 ```
 ### Clone Repository
 ```powershell
-git clone https://github.com/zain1022/k8s-mini-platform.git
-cd k8s-mini-platform
+git clone https://github.com/zain1022/aws-ec2-docker-deployment.git
+cd aws-ec2-docker-deployment
 ```
 ### Build and Run Container
 ```powershell
