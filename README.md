@@ -58,11 +58,18 @@ You can also check from the browser by going to
 ## Troubleshooting:
 In case you run in to the some of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
 * If the site is not reachable:
-  1. Verify EC2 instance is running
-  2. Confirm Security Group allows TCP 8000
-  3. Confirm container is running: ```docker ps```
-  4. Check container logs: ```docker logs mini-api```
-  5. Confirm application binds to ```0.0.0.0``` and not ```127.0.0.1```
+ 1. Verify EC2 instance is running
+ 2. Confirm Security Group allows TCP 8000
+ 3. Confirm container is running: ```docker ps```
+ 4. Check container logs: ```docker logs mini-api```
+ 5. Confirm application binds to ```0.0.0.0``` and not ```127.0.0.1```
 * If container crashes:
- 1. sads
- 2. dsds
+```powershell
+docker ps -a
+docker logs mini-api
+```
+Fix issue → rebuild → redeploy:
+```powershell
+docker build -t mini-api:1.0 .
+docker run -d -p 8000:8000 mini-api:1.0
+```
