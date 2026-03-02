@@ -31,6 +31,21 @@ Internet → AWS Security Group (Port 8000) → EC2 Instance (Amazon Linux) → 
 ssh -i mini-ec2-key.pem ec2-user@<PUBLIC_IP>
 ```
 ### Install Docker
+```powershell
+sudo dnf update -y
+sudo dnf install docker -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker ec2-user
+```
 ### Clone Repository
+```powershell
+git clone https://github.com/zain1022/k8s-mini-platform.git
+cd k8s-mini-platform
+```
 ### Build and Run Container
+```powershell
+docker build -t mini-api:1.0 .
+docker run -d --name mini-api -p 8000:8000 mini-api:1.0
+```
 ### Verify Application
