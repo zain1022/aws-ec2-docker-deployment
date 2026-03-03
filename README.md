@@ -26,6 +26,7 @@ aws-ec2-docker-deployment/
 * AWS account
 ## Architecture:
 Internet → AWS Security Group (Port 8000) → EC2 Instance (Amazon Linux) → Docker Container → FastAPI Application
+![Architecture Diagram](docs/architecture.png)
 ## ⚙️ Tech Stack
 * AWS EC2 (t2.micro or t3.micro – Free Tier)
 * Amazon Linux 2023
