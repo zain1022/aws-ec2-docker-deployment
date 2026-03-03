@@ -1,5 +1,27 @@
+# Python
 __pycache__/
 *.pyc
-*.pem
-.env
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# AWS keys (CRITICAL)
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Docker
+*.log
