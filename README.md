@@ -78,10 +78,9 @@ Once deployed, access:
 ```http://<PUBLIC_IP>:8000/items```
 
 Example response:
-
-{
-  "status": "healthy"
-}
+```powershell
+{ "status": "healthy" }
+```
 ## 🛠️ Troubleshooting:
 In case you run in to the any of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
 - If the site is not reachable:
