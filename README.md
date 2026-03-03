@@ -78,7 +78,7 @@ Once deployed, access:
 ```http://<PUBLIC_IP>:8000/items```
 
 Example response:
-```powershell
+```json
 { "status": "healthy" }
 ```
 ## 🛠️ Troubleshooting:
