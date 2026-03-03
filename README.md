@@ -19,7 +19,7 @@ aws-ec2-docker-deployment/
 │
 └── README.md
 ```
-## Pre-requisites:
+## Prerequisites:
 * Windows + Powershell (Can also be done on Mac via Terminal)
 * Docker Desktop
 * Git
@@ -83,7 +83,7 @@ Example response:
   "status": "healthy"
 }
 ## 🛠️ Troubleshooting:
-In case you run in to the some of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
+In case you run in to the any of the following errors or troubleshooting scenarios, here is a guide on how to solve these potential issues.
 - If the site is not reachable:
  1. Verify EC2 instance is running
  2. Confirm Security Group allows TCP 8000
